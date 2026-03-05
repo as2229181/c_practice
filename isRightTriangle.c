@@ -1,9 +1,6 @@
 # include <stdio.h>
 
-int main() {
-    int slideA, slideB, slideC;
-    printf("Please enter lengths:\n");
-    scanf("%d%d%d", &slideA, &slideB, &slideC);
+void checkRightTriangle(int slideA, int slideB, int slideC) {
     if (slideA * slideA + slideB * slideB == slideC * slideC ||
         slideA * slideA + slideC * slideC == slideB * slideB ||
         slideB * slideB + slideC * slideC == slideA * slideA){
@@ -12,5 +9,4 @@ int main() {
     else{
         printf("this is not a right triangle\n");
     }
-    return 0;
 }
