@@ -1,6 +1,7 @@
 # include <stdio.h>
 
 int main() {
+
     int nunber;
     int sum = 0;
     int count = 0;
